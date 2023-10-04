@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linktree-Style Redirects</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Custom styles */
+        .btn-link {
+            display: block;
+            padding: 10px 20px;
+            margin: 10px 0;
+            border: 2px solid #1a202c; /* Border color */
+            border-radius: 8px; /* Rounded corners */
+            text-align: center;
+            font-weight: bold;
+            text-decoration: none;
+            color: #1a202c; /* Text color */
+            transition: background-color 0.2s, border-color 0.2s, color 0.2s;
+        }
+
+        .btn-link:hover {
+            background-color: #1a202c; /* Background color on hover */
+            color: #ffffff; /* Text color on hover */
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <div class="min-h-screen flex items-center justify-center">
+        <div class="max-w-md w-full">
+            <div class="bg-white rounded-lg shadow-lg p-8">
+                <h1 class="text-3xl font-semibold mb-6">Choose a Destination</h1>
+                <div class="space-y-4">
+                    <a href="https://codeko.ro/" class="btn-link w-full">Codeko Principal</a>
+                    <a href="https://prints.codeko.ro/" class="btn-link w-full">Codeko Prints</a>
+                    <a href="https://www.youtube.com" class="btn-link w-full">Youtube</a>
+                    <a href="https://www.instagram.com/" class="btn-link w-full">Instagram</a>
+                    <a href="https://www.tiktok.com/explore" class="btn-link w-full">TikTok</a>
+                    <a href="https://twitter.com/" class="btn-link w-full">Twitter</a>
+                    <a href="https://www.facebook.com/" class="btn-link w-full">Facebook</a>
+                </div>
+            </div>
+            
+            <!-- Second Card Right Under the First Card -->
+            <div class="bg-white rounded-lg shadow-lg p-8 mt-4">
+                <div class="space-y-4">
+                    <a href="mailto:team@codeko.ro" class="btn-link">Email: team@codeko.ro</a>
+                    <a href="tel:0720204884" class="btn-link">Telefon: 0720204884</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
